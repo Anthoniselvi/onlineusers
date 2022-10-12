@@ -9,7 +9,7 @@ function getUserDiv(user) {
     <div class="my-online-user">
     <div class="user-username">${user.username}</div>
     <div class="user-online"></div>
-</div)
+</div>
     `;
 }
 getUsers().then((users) => {
